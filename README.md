@@ -26,7 +26,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter -c v1 https://github.com/sausolofer/SSF_Personal_Data_Science_Template
+    cookiecutter https://github.com/sausolofer/SSF_Personal_Data_Science_Template
 
 
 
