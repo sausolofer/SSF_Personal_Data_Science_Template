@@ -1,22 +1,14 @@
-def deprecation_warning():
-    print("""
+import os
+import subprocess
 
-=============================================================================
-*** DEPRECATION WARNING ***
+MESSAGE_COLOR = "\x1b[34m"
+RESET_ALL = "\x1b[0m"
 
-Cookiecutter data science is moving to v2 soon, which will entail using
-the command `ccds ...` rather than `cookiecutter ...`. The cookiecutter command
-will continue to work, and this version of the template will still be available.
-To use the legacy template, you will need to explicitly use `-c v1` to select it.
+print(f"{MESSAGE_COLOR}Almost done!")
+print(f"Initializing a git repository...{RESET_ALL}")
 
-Please update any scripts/automation you have to append the `-c v1` option,
-which is available now.
+subprocess.call(['git', 'init'])
+subprocess.call(['git', 'add', '*'])
+subprocess.call(['git', 'commit', '-m', 'Initial commit'])
 
-For example:
-    cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
-=============================================================================
-
-    """)
-
-
-deprecation_warning()
+print(f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun!{RESET_ALL}")
