@@ -1,6 +1,6 @@
 # SSF Cookiecutter Data Science tamplate
 
-_A personal logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+_A personal logical, reasonably standardized project structure for doing and sharing data science work base on the Cookie Cutter Data Science Template._
 
 
 #### [Project homepage](https://github.com/sausolofer/SSF_Personal_Data_Science_Template.git)
