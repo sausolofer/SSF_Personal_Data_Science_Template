@@ -3,7 +3,51 @@
 
 {{cookiecutter.description}}
 
-Project Organization
+## Requirements and Uses
+
+### Prerequisites:
+To clone and run the project, the following software tools are needed:
+
+* [Git](https://git-scm.com/downloads) 
+* [Python3](https://www.python.org/downloads/)
+* [Pip3](https://bootstrap.pypa.io/get-pip.py)
+
+This project requieres the libraries described in the requirements.txt file
+
+### Source code:
+First, it is highly recommended to fork the project from your personal GitHub account. Then, once the fork is created, download the sources with the command:
+
+`git clone https://github.com/yourUser/{{ cookiecutter.project_name }}.git`
+ 
+ or
+
+`git clone git@github.com:yourUser/{{ cookiecutter.project_name }}.git`
+
+
+* It can also be downloaded as a .zip file and unzipped.
+
+
+### Run and Uses:
+To run follow the next steps:
+
+1. Install the virtual environment: 
+  * Intalling the environment:`python3 -m pip install virtualenv`
+  * Verify instalation: `virtualenv --version`
+
+2. Create a virtual environment and activate it:
+  * On Windows: `py -m venv .venv && .venv\Scripts\activate`
+  * On linux and Mac: `python3 -m venv .venv && source .venv/bin/activate`
+
+3. Install the libraries contained in the "requirements.txt" file: `pip install -r requirements.txt`
+
+## Development
+
+### Important links:
+* Official source code repo: -
+* Download releases: -
+
+
+## Project Organization
 ------------
 
     ├── LICENSE
@@ -53,5 +97,14 @@ Project Organization
 
 
 --------
+
+## Help and Support
+
+### Documentation
+* HTML documentation: An overview of the project's classes and methods is available here.
+
+### Contact:
+Feel free to reach out to {{ cookiecutter.project_author_email }} if you have any problems running the code or if you have a question about the repository as a whole. Lastly, if you have any suggestions to improve this repository, create an issue or send an email if that's more applicable.
+
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
