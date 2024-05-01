@@ -13,6 +13,7 @@ _A personal logical, reasonably standardized project structure for doing and sha
 
 ``` bash
 $ pip install cookiecutter
+or
 $ python3 -m pip install --user cookiecutter
 ```
 
