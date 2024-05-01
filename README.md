@@ -24,6 +24,11 @@ $ conda config --add channels conda-forge
 $ conda install cookiecutter
 ```
 
+or in Linux/WSL
+
+``` bash
+$ sudo apt-get install cookiecutter
+```
 
 ### To start a new project, run:
 ------------
