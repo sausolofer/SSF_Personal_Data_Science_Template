@@ -1,4 +1,4 @@
- import sys
+import sys
 
 REQUIRED_PYTHON = "{{ cookiecutter.python_interpreter }}"
 
