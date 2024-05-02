@@ -14,12 +14,10 @@ torch
 tensorflow
 {% endif %}
 
-
 # Feature Selection Libraries
 skfeature-chappers
 skrebate
 entropy_estimators
-
 
 # Graphics
 matplotlib
