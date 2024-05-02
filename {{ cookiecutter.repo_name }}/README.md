@@ -28,10 +28,10 @@ First, it is highly recommended to fork the project from your personal GitHub ac
 
 
 ### Run and Uses:
-To run follow you have two options:
+To run you have two options:
 
-#### Using the Make tool:
-* For options using Make tool using the terminal, in the proyect directory execute the following command:
+#### Using the the Make tool:
+* For options using Make tool, using the terminal in the proyect directory execute the following command:
 `make`
 
 #### Manual configuration:
