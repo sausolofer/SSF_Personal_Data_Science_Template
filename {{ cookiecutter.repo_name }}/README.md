@@ -17,21 +17,27 @@ This project requieres the libraries described in the requirements.txt file
 ### Source code:
 First, it is highly recommended to fork the project from your personal GitHub account. Then, once the fork is created, download the sources with the command:
 
-`git clone https://github.com/yourUser/{{ cookiecutter.repo_name }}.git`
+`git clone https://github.com/your_user/{{ cookiecutter.repo_name }}.git`
  
  or
 
-`git clone git@github.com:yourUser/{{ cookiecutter.repo_name }}.git`
+`git clone git@github.com:your_user/{{ cookiecutter.repo_name }}.git`
 
 
 * It can also be downloaded as a .zip file and unzipped.
 
 
 ### Run and Uses:
-To run follow the next steps:
+To run follow you have two options:
+
+#### Using the Make tool:
+* For options using Make tool using the terminal, in the proyect directory execute the following command:
+`make`
+
+#### Manual configuration:
 
 1. Install the virtual environment: 
-  * Intalling the environment:`python3 -m pip install virtualenv`
+  * Installing the environment:`python3 -m pip install virtualenv`
   * Verify instalation: `virtualenv --version`
 
 2. Create a virtual environment and activate it:
