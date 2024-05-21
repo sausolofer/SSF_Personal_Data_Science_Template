@@ -23,13 +23,11 @@ stemgraphic
 #Ipython
 ipykernel
 ipython
-{% if cookiecutter.project_packages == "All" -%}
 #Other libraries
 openpyxl
 joblib
 optbinning
 session-info
-{% endif %}
 # External requirements
 click
 Sphinx
