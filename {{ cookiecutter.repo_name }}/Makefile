@@ -54,6 +54,10 @@ else
 	aws s3 sync s3://$(BUCKET)/data/ data/ --profile $(PROFILE)
 endif
 
+## Download Raw Data from external Sources
+get_data_from_sources:
+	$(PYTHON_INTERPRETER) src/data/get_datasets.py datasets/raw datasets/processed
+
 ## Set up python interpreter environment
 create_environment:
 ifeq (True,$(HAS_CONDA))
