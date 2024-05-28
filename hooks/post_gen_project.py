@@ -10,3 +10,6 @@ print(f"Initializing a git repository...{RESET_ALL}")
 subprocess.call(['git', 'init'])
 subprocess.call(['git', 'add', '.'])
 subprocess.call(['git', 'commit', '-m', 'Initial commit'])
+#['git', 'config', 'filter.strip-notebook-output.clean', '\'jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR\''])
+
+
