@@ -28,6 +28,7 @@ openpyxl
 joblib
 optbinning
 session-info
+nbdime
 # External requirements
 click
 Sphinx
