@@ -29,6 +29,9 @@ joblib
 optbinning
 session-info
 nbdime
+fs
+pathlib
+pyprojroot
 # External requirements
 click
 Sphinx
